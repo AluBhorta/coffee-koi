@@ -1,17 +1,20 @@
 :root {
-  --main-col: #4888c4;
-  --main-col-dark: #2c69a3;
-  --main-col-light: #88a8c5;
+  --main-col: #a0522d;
+  --main-col-dark: #714331;
+  --main-col-light: #f4a460;
   --main-light: #fff;
   --main-dark: #000;
   --rose-col: #ffe4e1;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +27,7 @@ html, body{
 }
 
 .nav {
-  background-color:var(--main-col);
-
+  background-color: var(--main-col);
 }
 .nav ul {
   margin: 0;
@@ -53,5 +55,5 @@ html, body{
 }
 
 .footer {
-  background-color:var(--main-col);
+  background-color: var(--main-col);
 }
