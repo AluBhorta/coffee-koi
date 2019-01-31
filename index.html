@@ -19,10 +19,62 @@
       </header>
 
       <div class="main-content">
-        <div id="home">This is Home</div>
-        <div id="about">This is About</div>
-        <div id="products">This is products</div>
-        <div id="contact">This is contact</div>
+        <div class="content" id="home">
+          <div class="home-card card">
+            <h1>Welcome to <i>Coffee Now</i></h1>
+            <p>
+              The coffee shop with all the dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="content" id="about">
+          <div class="about-card card">
+            <h1>About Coffee Now</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ipsa
+              placeat aliquid eum optio ea? Autem, minus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem,
+              reprehenderit repellat dolores earum assumenda commodi vero fugit,
+              fuga quaerat praesentium officiis, ducimus cupiditate consequatur
+              soluta facere. Ab facilis nihil dolore maiores distinctio
+              voluptates ipsam magni, iste eveniet sequi unde accusamus!
+            </p>
+          </div>
+        </div>
+        <div class="content" id="products">
+          <h1 class="products-title">Our Products</h1>
+          <div class="product-card">
+            <img src="./img/04.hand-milk-pour.jpeg" alt="" />
+            <h3>Fresh Creme Caffe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="product-card">
+            <img src="./img/03.coffee-croissant.jpeg" alt="" />
+            <h3>Buttery French Croissant and other Baked Goodies</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div class="product-card">
+            <img src="./img/05.mint-tea.jpeg" alt="" />
+            <h3>Mint & other Tea variants</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="content" id="contact">
+          <div class="contact-card card">
+            <h2>Contact Us</h2>
+            <form onsubmit="console.log('Form Submitted')">
+              <input type="text" placeholder="Enter your name" />
+              <br />
+              <input type="text" placeholder="Enter your email" />
+              <br />
+              <textarea placeholder="Enter your message"></textarea>
+              <br />
+              <button class="submit-btn btn">Send</button>
+            </form>
+          </div>
+        </div>
       </div>
 
       <footer class="footer">COFFEE NOW &copy; 2019</footer>
