@@ -159,6 +159,12 @@ textarea {
   border: 0;
   cursor: pointer;
   padding: 6px 10px;
+  border-radius: 8px;
+}
+
+#contact .btn:hover,
+.btn:hover {
+  background-color: var(--main-col);
 }
 
 .footer {
@@ -171,4 +177,12 @@ textarea {
   display: grid;
   justify-items: center;
   align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  background-color: var(--black-fade);
+  color: var(--main-light);
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin: 2rem;
 }
