@@ -6,4 +6,4 @@ Simple prototype site of a totally real coffee shop named '_Coffee Koi_' for pra
 
 ## Resources
 
-Images colled from [Pexels](https://pexels.com).
+Images collected from [Pexels](https://pexels.com).
