@@ -25,6 +25,10 @@ body {
   line-height: 1.6em;
 }
 
+ul {
+  padding: 0;
+}
+
 .container {
   background-color: var(--rose-col);
 }
